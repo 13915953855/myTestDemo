@@ -1,0 +1,15 @@
+
+usquid:S1171#"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+usquid:S1171:"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+Csquid:S3599",Use another way to initialize this instance.(©Ø‘ô
+Hsquid:S3599O",Use another way to initialize this instance.(áíŞÆıÿÿÿÿ
+Hsquid:S3599D",Use another way to initialize this instance.(áíŞÆıÿÿÿÿ
+usquid:S1171/"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+Hsquid:S3599"",Use another way to initialize this instance.(É²ƒüÿÿÿÿ
+usquid:S1171E"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+Hsquid:S35999",Use another way to initialize this instance.(É²ƒüÿÿÿÿ
+usquid:S1171P"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+Csquid:S3599.",Use another way to initialize this instance.(©Ø‘ô
+usquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+csquid:S1192"LDefine a constant instead of duplicating this literal "hello,david" 4 times.(Ö“˜Š
+lsquid:S4144,"UUpdate this method so that its implementation is not identical to "test1" on line 21.(ˆ¨Óİ

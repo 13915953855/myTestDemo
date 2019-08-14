@@ -1,0 +1,6 @@
+
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(…»ÅÚ8³žåê¹-
+\squid:S1854";Remove this useless assignment to local variable "dhTotal".(æ±üÆùÿÿÿÿ8Ÿ»ŽŸÈ-
+Msquid:S1481",Remove this unused "dhTotal" local variable.(æ±üÆùÿÿÿÿ8ï£ŒŸÈ-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(õüßÊúÿÿÿÿ8ï£ŒŸÈ-

@@ -1,0 +1,21 @@
+
+O
+squid:S1068"9Replace this use of System.out or System.err by a logger.(™òô…
+?squid:S1148B"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+T
+squid:S106'"9Replace this use of System.out or System.err by a logger.(¡–Ø¿üÿÿÿÿ
+[squid:S2147A"DCombine this catch with the one at line 63, which has the same body.(ï­£Ä
+bsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(ýæÛ‚
+[squid:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(–úÒ¹
+T
+squid:S106-"9Replace this use of System.out or System.err by a logger.(ûÐÐøüÿÿÿÿ
+?squid:S1148@"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(©çäÖ
+[squid:S2147C"DCombine this catch with the one at line 63, which has the same body.(”ý¾
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(–¥ÿœþÿÿÿÿ
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(œ¥ÔÔ8…æ÷Œž-
+gsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(«ÖÀ½þÿÿÿÿ
+Isquid:S1168"+Return an empty collection instead of null.(œ¥ÔÔ8…æ÷Œž-
+?squid:S1148D"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Esquid:S14812")Remove this unused "info" local variable.(ñ´„®ûÿÿÿÿ

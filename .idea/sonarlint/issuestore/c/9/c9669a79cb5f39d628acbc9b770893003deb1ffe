@@ -1,0 +1,10 @@
+
+?squid:S1148/"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(óü¿Ñúÿÿÿÿ
+gsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(œ€ÅÃüÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹™õÝøÿÿÿÿ
+gsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(¿õÈÈþÿÿÿÿ
+[squid:S2278*"?Use the recommended AES (Advanced Encryption Standard) instead.(Èº¿›ýÿÿÿÿ
+:squid:S11483"#Use a logger to log this exception.(þìÓ’

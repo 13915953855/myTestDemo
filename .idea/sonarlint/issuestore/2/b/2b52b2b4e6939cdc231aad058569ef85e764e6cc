@@ -1,0 +1,12 @@
+
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(«‹Îõ8Æ«¹êÂ-
+gsquid:S2147A"DCombine this catch with the one at line 64, which has the same body.(†ëˆçùÿÿÿÿ8ˆñ©êÂ-
+Hsquid:S001082")Either remove or fill this block of code.(å¥‡8¢˜ªêÂ-
+[
+squid:S106N"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8¯‰¢êÂ-
+Msquid:S00108A")Either remove or fill this block of code.(†ëˆçùÿÿÿÿ8ˆñ©êÂ-
+Msquid:S00108@")Either remove or fill this block of code.(åşŒóùÿÿÿÿ8ˆñ©êÂ-
+xsquid:S39231"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ìûùJ8¢˜ªêÂ-
+Gsquid:S001081")Either remove or fill this block of code.(ìûùJ8¢˜ªêÂ-
+Usquid:S1135"2Complete the task associated to this TODO comment.(ÛêÁúÿÿÿÿ8»ğøéÂ-
