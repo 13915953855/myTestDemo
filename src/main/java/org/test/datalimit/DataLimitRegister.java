@@ -1,11 +1,11 @@
 package org.test.datalimit;
 
-import com.cmiot.chinamobile.smokedetector.device.datalimit.service.DataLimitBase;
 import lombok.Getter;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
+import org.test.datalimit.service.DataLimitBase;
 
 import java.util.HashMap;
 import java.util.Map;

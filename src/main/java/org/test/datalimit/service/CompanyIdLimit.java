@@ -1,12 +1,7 @@
 package org.test.datalimit.service;
 
-import com.cmiot.chinamobile.smokedetector.device.annotation.DataLimited;
-import com.cmiot.chinamobile.smokedetector.device.datalimit.KeyType;
-import com.cmiot.chinamobile.smokedetector.device.utils.CommonUtils;
-import org.apache.commons.lang3.StringUtils;
-
-import javax.servlet.http.HttpServletRequest;
-import java.util.List;
+import org.test.datalimit.DataLimited;
+import org.test.datalimit.KeyType;
 
 /**
  * @Author: 徐森
@@ -16,9 +11,9 @@ import java.util.List;
 @KeyType(type = "companyId")
 public class CompanyIdLimit implements DataLimitBase {
     @Override
-    public Boolean needDataLimit(HttpServletRequest httpServletRequest, DataLimited dataLimited) {
+    public Boolean needDataLimit(DataLimited dataLimited) {
         Boolean need = true;
-        List<Integer> companyIds = CommonUtils.getCompanyIdsByCurrentUser();
+        /*List<Integer> companyIds = CommonUtils.getCompanyIdsByCurrentUser();
         String value = httpServletRequest.getParameter(dataLimited.paramKey());
         if(StringUtils.isNotBlank(value)){
             Integer companyId = Integer.valueOf(value);
@@ -27,7 +22,7 @@ public class CompanyIdLimit implements DataLimitBase {
                     need = false;
                 }
             }
-        }
+        }*/
         return need;
     }
 }

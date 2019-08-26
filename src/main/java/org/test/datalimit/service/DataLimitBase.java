@@ -1,8 +1,6 @@
 package org.test.datalimit.service;
 
-import com.cmiot.chinamobile.smokedetector.device.annotation.DataLimited;
-
-import javax.servlet.http.HttpServletRequest;
+import org.test.datalimit.DataLimited;
 
 /**
  * @Author: 徐森
@@ -10,5 +8,5 @@ import javax.servlet.http.HttpServletRequest;
  * @Description: 校验数据权限父类
  */
 public interface DataLimitBase {
-    Boolean needDataLimit(HttpServletRequest httpServletRequest, DataLimited dataLimited);
+    Boolean needDataLimit(DataLimited dataLimited);
 }

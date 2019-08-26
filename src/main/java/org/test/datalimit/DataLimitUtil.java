@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.test.datalimit.service.DataLimitBase;
 
 import javax.annotation.PostConstruct;
-import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpServletRequest;
 
 /**
  * @Author: 徐森
@@ -27,7 +27,7 @@ public class DataLimitUtil {
         dataLimitUtil.dataLimitExecutor = this.dataLimitExecutor;
     }
 
-    public static Boolean needDatalimit(HttpServletRequest httpServletRequest, DataLimited dataLimited) {
-        return dataLimitUtil.dataLimitExecutor.execute(DataLimitBase.class,dataLimited.keyType(), e -> e.needDataLimit(httpServletRequest, dataLimited));
+    public static Boolean needDatalimit(DataLimited dataLimited) {
+        return dataLimitUtil.dataLimitExecutor.execute(DataLimitBase.class,dataLimited.keyType(), e -> e.needDataLimit(dataLimited));
     }
 }
