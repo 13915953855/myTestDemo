@@ -1,6 +1,8 @@
 package org.test;
 
 
+import org.test.linshi.MD5Utils;
+
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
 import java.util.List;
@@ -8,13 +10,7 @@ import java.util.stream.Collectors;
 
 public class Test {
     public static void main(String[] args) {
-        List<Integer> numbers = Arrays.asList(13, 5, 3, 64, 12, 32, 45);
-        for (int i = 0; i < numbers.size(); i++) {
-            if(numbers.get(i) == 3){
-                return;
-            }
-            System.out.println(numbers.get(i));
-        }
+        System.out.println(MD5Utils.md5Bit32Lower("Hzyddl@2019"));
         //1.求和
        /* Integer sum = numbers.stream().reduce(Integer::sum).get();
         System.out.println("总和:" + sum);
