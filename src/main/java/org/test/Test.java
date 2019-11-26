@@ -13,6 +13,9 @@ public class Test {
         String a = "${a}用电量${a}${a}度，进行告警";
         a.replaceAll("\\$\\{a\\}","hello");
         System.out.println(a);
+
+        int i = 0x61c88647;
+        System.out.println(i);
     }
 
 }

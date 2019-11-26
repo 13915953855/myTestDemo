@@ -5,7 +5,7 @@ package org.test.function;
  * @CreateDate: 2019/4/26
  * @Description:
  */
-@Extension(code = "cat")
+@Extension(code = "dog")
 public class Dog implements Animal {
     @Override
     public String eat() {

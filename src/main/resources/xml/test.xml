@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<School name="盐城一中">
+    <Grade name="高一">
+        <Class name="强化一班" number="31"/>
+        <Class name="强化二班" number="32"/>
+    </Grade>
+    <Grade name="高二">
+        <Class name="物理班" number="41"/>
+        <Class name="数学班" number="42"/>
+        <Class name="语文班" number="37"/>
+    </Grade>
+</School>

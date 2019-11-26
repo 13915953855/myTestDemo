@@ -40,11 +40,25 @@ public class Main {
                 e.printStackTrace();
             }
             sql += " and "+columnName + "="+fieldValue;
-
-
         }
-
-
         System.out.println(sql);
+
+        Method[] declaredMethods = cls.getDeclaredMethods();
+        for (Method declaredMethod : declaredMethods) {
+            String methodName = declaredMethod.getName();
+            if(methodName.startsWith("get")){
+                try {
+                    Method method = cls.getMethod(methodName);
+                    System.out.println(methodName+"==="+method.invoke(f1));
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        String canonicalName = cls.getCanonicalName();
+        System.out.println(canonicalName);
+        System.out.println(cls.getName());
+        System.out.println(cls.getSimpleName());
+        System.out.println(cls.getTypeName());
     }
 }

@@ -23,6 +23,7 @@ public class ConfigTest {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext();
 
+        ac.register(ConstructClass.class);
         ac.register(ConfigTest.class);
         ac.refresh();
         Person user = (Person) ac.getBean("user");
