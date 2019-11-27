@@ -5,6 +5,8 @@ import org.apache.juli.ClassLoaderLogManager;
 import org.apache.tomcat.util.ExceptionUtils;
 
 import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.LogManager;
 
 import static java.lang.Thread.sleep;
@@ -19,13 +21,15 @@ public class MyRunService {
     private MyShutdownHook shutdownHook = null;
     private volatile static boolean a = true;
 
+    static class OOMObject {
+    }
+
     public void start() throws Exception {
         System.out.println("开始运行!a="+a);
-        for (int i = 0; i < 5; i++) {
-            System.out.println("hello");
-            sleep(1000);
+        List<OOMObject> list = new ArrayList<OOMObject>();
+        while (true) {
+            list.add(new OOMObject());
         }
-        throw new Exception("error!");
     }
     public void start2() {
         System.out.println("开始运行钩子");
