@@ -104,5 +104,7 @@ public class DigesterTest {
         DigesterTest digesterTest = new DigesterTest();
         digesterTest.digester();
         digesterTest.print(digesterTest.school);
+
+
     }
 }
