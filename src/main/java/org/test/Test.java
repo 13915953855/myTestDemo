@@ -1,73 +1,41 @@
 package org.test;
 
-import javax.crypto.Mac;
-import javax.crypto.spec.SecretKeySpec;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-import java.util.Base64;
+import algurate.Hanoi;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.net.URL;
 
 public class Test {
-    public static String assembleToken(String version, String resourceName, String expirationTime, String signatureMethod, String accessKey)
-            throws UnsupportedEncodingException, NoSuchAlgorithmException, InvalidKeyException {
-        StringBuilder sb = new StringBuilder();
-        String res = URLEncoder.encode(resourceName, "UTF-8");
-        String sig = URLEncoder.encode(generatorSignature(version, resourceName, expirationTime
-                , accessKey, signatureMethod), "UTF-8");
-        sb.append("version=")
-                .append(version)
-                .append("&res=")
-                .append(res)
-                .append("&et=")
-                .append(expirationTime)
-                .append("&method=")
-                .append(signatureMethod)
-                .append("&sign=")
-                .append(sig);
-        return sb.toString();
+    public static void main(String[] args) throws Exception {
+        URL httpUrl = new URL("http://www.baidu.com");
+        BufferedReader in = new BufferedReader(new InputStreamReader(httpUrl.openStream(), "UTF-8"));
+        String line = null;
+        String content = "";
+        while ((line = in.readLine()) != null) {
+            content += line;
+        }
+        in.close();
+        System.out.println(content);
+//        String className = "algurate.Hanoi";
+//        try {
+//            Class instance = Class.forName(className);
+//            Object object = instance.newInstance();
+//            Method method = instance.getDeclaredMethod("hanoi", int.class, char.class, char.class, char.class);
+//            method.invoke(object, 2, 'A', 'B', 'C');
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        } catch (NoSuchMethodException e) {
+//            e.printStackTrace();
+//        } catch (IllegalAccessException e) {
+//            e.printStackTrace();
+//        } catch (InstantiationException e) {
+//            e.printStackTrace();
+//        } catch (InvocationTargetException e) {
+//            e.printStackTrace();
+//        }
+
     }
-
-    public static String generatorSignature(String version, String resourceName, String expirationTime, String accessKey, String signatureMethod)
-            throws NoSuchAlgorithmException, InvalidKeyException {
-        String encryptText = expirationTime + "\n" + signatureMethod + "\n" + resourceName + "\n" + version;
-        String signature;
-        byte[] bytes = HmacEncrypt(encryptText, accessKey, signatureMethod);
-        signature = Base64.getEncoder().encodeToString(bytes);
-        return signature;
-    }
-
-    public static byte[] HmacEncrypt(String data, String key, String signatureMethod)
-            throws NoSuchAlgorithmException, InvalidKeyException {
-        //根据给定的字节数组构造一个密钥,第二参数指定一个密钥算法的名称
-        SecretKeySpec signinKey = null;
-        signinKey = new SecretKeySpec(Base64.getDecoder().decode(key),
-                "Hmac" + signatureMethod.toUpperCase());
-
-        //生成一个指定 Mac 算法 的 Mac 对象
-        Mac mac = null;
-        mac = Mac.getInstance("Hmac" + signatureMethod.toUpperCase());
-
-        //用给定密钥初始化 Mac 对象
-        mac.init(signinKey);
-
-        //完成 Mac 操作
-        return mac.doFinal(data.getBytes());
-    }
-
-    public enum SignatureMethod {
-        SHA1, MD5, SHA256;
-    }
-
-    public static void main(String[] args) throws UnsupportedEncodingException, NoSuchAlgorithmException, InvalidKeyException {
-        String version = "2018-10-31";
-        String resourceName = "products/302356";
-        String expirationTime = System.currentTimeMillis() / 1000 + 100 * 24 * 60 * 60 + "";
-        String signatureMethod = SignatureMethod.SHA1.name().toLowerCase();
-        String accessKey = "HeYsYrpMVN3382/WODCgaOirCgEC0Q+EpKF/xbpuTrQ=";
-        //String Master-APIkey = "ddlHVrj0cXXnrtI254qisYfaRzI=";
-        String token = assembleToken(version, resourceName, expirationTime, signatureMethod, accessKey);
-        System.out.println("Authorization:" + token);
-    }
-
 }
