@@ -10,15 +10,15 @@ import java.net.URL;
 
 public class Test {
     public static void main(String[] args) throws Exception {
-        URL httpUrl = new URL("http://www.baidu.com");
-        BufferedReader in = new BufferedReader(new InputStreamReader(httpUrl.openStream(), "UTF-8"));
-        String line = null;
-        String content = "";
-        while ((line = in.readLine()) != null) {
-            content += line;
-        }
-        in.close();
-        System.out.println(content);
+//        URL httpUrl = new URL("http://www.baidu.com");
+//        BufferedReader in = new BufferedReader(new InputStreamReader(httpUrl.openStream(), "UTF-8"));
+//        String line = null;
+//        String content = "";
+//        while ((line = in.readLine()) != null) {
+//            content += line;
+//        }
+//        in.close();
+//        System.out.println(content);
 //        String className = "algurate.Hanoi";
 //        try {
 //            Class instance = Class.forName(className);
@@ -36,6 +36,16 @@ public class Test {
 //        } catch (InvocationTargetException e) {
 //            e.printStackTrace();
 //        }
-
+        System.out.println(test());
+    }
+    private static int test(){
+        int a = 1;
+        try{
+            System.out.println(a);
+            return ++a;
+        }finally {
+            ++a;
+            System.out.println(a);
+        }
     }
 }
