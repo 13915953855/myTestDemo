@@ -1,10 +1,25 @@
 
-?squid:S1148/"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+[squid:S2278/"?Use the recommended AES (Advanced Encryption Standard) instead.(Èº¿›ýÿÿÿÿ
+gsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(œ€ÅÃüÿÿÿÿ
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(óü¿Ñúÿÿÿÿ
-gsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(œ€ÅÃüÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹™õÝøÿÿÿÿ
+Msquid:S00108L")Either remove or fill this block of code.(™ÈŠùÿÿÿÿ8ê°òöÜ-
+Msquid:S00108N")Either remove or fill this block of code.(ñ†«Žûÿÿÿÿ8ê°òöÜ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚ã×üÿÿÿÿ8Ù×ôöÜ-
+gsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(¿õÈÈþÿÿÿÿ
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¹™õÝøÿÿÿÿ
-gsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(¿õÈÈþÿÿÿÿ
-[squid:S2278*"?Use the recommended AES (Advanced Encryption Standard) instead.(Èº¿›ýÿÿÿÿ
-:squid:S11483"#Use a logger to log this exception.(þìÓ’
+squid:S106"9Replace this use of System.out or System.err by a logger.(óü¿Ñúÿÿÿÿ
+jsquid:S1192-"GDefine a constant instead of duplicating this literal "DESede" 3 times.(™ì«ˆýÿÿÿÿ8ê°òöÜ-
+gsquid:S2147N"DCombine this catch with the one at line 76, which has the same body.(ñ†«Žûÿÿÿÿ8ê°òöÜ-
+bsquid:S2147P"DCombine this catch with the one at line 76, which has the same body.(éÉÝá8ê°òöÜ-
+Hsquid:S00108O")Either remove or fill this block of code.(ìïð½8ê°òöÜ-
+Msquid:S00108M")Either remove or fill this block of code.(þ£¦µþÿÿÿÿ8ê°òöÜ-
+hsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(ØøÖ8ê°òöÜ-
+bsquid:S2147O"DCombine this catch with the one at line 76, which has the same body.(ìïð½8ê°òöÜ-
+Hsquid:S00108P")Either remove or fill this block of code.(éÉÝá8ê°òöÜ-
+:squid:S11488"#Use a logger to log this exception.(þìÓ’
+rsquid:S2259"O"NullPointerException" will be thrown when invoking method "resolveDESValue()".(¨ÙÆùÿÿÿÿ8¤´õöÜ-
+gsquid:S2147M"DCombine this catch with the one at line 76, which has the same body.(þ£¦µþÿÿÿÿ8ê°òöÜ-
+?squid:S11484"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+nsquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(•×™ýÿÿÿÿ8ê°òöÜ-

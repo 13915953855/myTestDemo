@@ -1,23 +1,23 @@
 
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ãü‚›
-Hsquid:S1612!",Replace this lambda with a method reference.(š“€Üøÿÿÿÿ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(žÊä½
+N
+squid:S1060"9Replace this use of System.out or System.err by a logger.(‹¤¸
 T
 squid:S106-"9Replace this use of System.out or System.err by a logger.(±ì¥µúÿÿÿÿ
+Ssquid:S36552"7Call "Optional#isPresent()" before accessing the value.(èŠÐ—ýÿÿÿÿ
 T
 squid:S106#"9Replace this use of System.out or System.err by a logger.(ˆÏñÂùÿÿÿÿ
 Xsquid:S1854("<Remove this useless assignment to local variable "integers".(Õ‘ðãþÿÿÿÿ
+[squid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ
+Ssquid:S1611!"7Remove the parentheses around the "childList" parameter(š“€Üøÿÿÿÿ
+Hsquid:S1612!",Replace this lambda with a method reference.(š“€Üøÿÿÿÿ
+Isquid:S1481("-Remove this unused "integers" local variable.(Õ‘ðãþÿÿÿÿ
 N
 squid:S106)"9Replace this use of System.out or System.err by a logger.(²äÏg
-[squid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ
-N
-squid:S1060"9Replace this use of System.out or System.err by a logger.(‹¤¸
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ãü‚›
 N
 squid:S1063"9Replace this use of System.out or System.err by a logger.(‹¤¸
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(¡¤–õûÿÿÿÿ
-Ssquid:S1611!"7Remove the parentheses around the "childList" parameter(š“€Üøÿÿÿÿ
-Ssquid:S36552"7Call "Optional#isPresent()" before accessing the value.(èŠÐ—ýÿÿÿÿ
-Isquid:S1481("-Remove this unused "integers" local variable.(Õ‘ðãþÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(žÊä½

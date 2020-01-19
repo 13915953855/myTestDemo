@@ -36,7 +36,8 @@ public class Test {
 //        } catch (InvocationTargetException e) {
 //            e.printStackTrace();
 //        }
-        System.out.println(test());
+        //System.out.println(test());
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
     private static int test(){
         int a = 1;

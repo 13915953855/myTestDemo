@@ -1,8 +1,8 @@
 
-Fsquid:S1148:"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‡–¹É­-
-Dsquid:S1168>"&Return an empty array instead of null.(¥¹ï8‡–¹É­-
-Fsquid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‡–¹É­-
-^squid:S22597"@A "NullPointerException" could be thrown; "is" is nullable here.(şÑù8‡–¹É­-
 _squid:S22598"AA "NullPointerException" could be thrown; "bos" is nullable here.(Éï‰­8‡–¹É­-
-Msquid:S2093*"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ğİ¹É­-
+Dsquid:S1168>"&Return an empty array instead of null.(¥¹ï8‡–¹É­-
+Fsquid:S1148:"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‡–¹É­-
 Isquid:S1075&"&Remove this hard-coded path-delimiter.(­ÌÂûÿÿÿÿ8‡–¹É­-
+^squid:S22597"@A "NullPointerException" could be thrown; "is" is nullable here.(şÑù8‡–¹É­-
+Fsquid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‡–¹É­-
+Msquid:S2093*"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ğİ¹É­-

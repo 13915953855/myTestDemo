@@ -1,3 +1,3 @@
 
-usquid:UselessImportCheck"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ8¡ªá¼¥-
 ysquid:S1488"[Immediately return this expression instead of assigning it to the temporary variable "eat".(Ñâ‡Ð8ˆÒÜ¼¥-
+usquid:UselessImportCheck"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ8¡ªá¼¥-

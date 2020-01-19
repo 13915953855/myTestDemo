@@ -1,5 +1,5 @@
 
+`squid:S21474"DCombine this catch with the one at line 50, which has the same body.(ÐÐ¹óúÿÿÿÿ
 ksquid:S00100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†’Àêûÿÿÿÿ
 vsquid:S1149C"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¾Î›Š
 Tsquid:S1197A"8Move the array designator from the variable to the type.(‚ŠÓŠúÿÿÿÿ
-`squid:S21474"DCombine this catch with the one at line 50, which has the same body.(ÐÐ¹óúÿÿÿÿ
