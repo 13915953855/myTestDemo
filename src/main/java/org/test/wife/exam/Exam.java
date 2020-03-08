@@ -24,7 +24,7 @@ public class Exam implements Serializable {
     private String title;
 
     @Excel(name = "type/isChose")
-    private String isChose;
+    private Integer isChose;
 
     @Excel(name = "detail")
     private String detail;
@@ -36,5 +36,5 @@ public class Exam implements Serializable {
     private String objectId;
 
     @Excel(name = "分类")
-    private String leibie;
+    private Integer leibie;
 }
