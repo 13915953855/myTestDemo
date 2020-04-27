@@ -28,7 +28,9 @@ public class MyRunService {
         System.out.println("开始运行!a="+a);
         List<OOMObject> list = new ArrayList<OOMObject>();
         while (true) {
-            list.add(new OOMObject());
+            Thread.sleep(3000);
+            throw new Exception("!110");
+            //list.add(new OOMObject());
         }
     }
     public void start2() {
@@ -38,7 +40,7 @@ public class MyRunService {
         }
         Runtime.getRuntime().addShutdownHook(shutdownHook);
     }
-    public void stop(){
+    public static void stop(){
         System.out.println("停止运行，设置a为false");
         a = false;
         System.out.println("停止运行！a="+a);
@@ -50,6 +52,7 @@ public class MyRunService {
 
         method2.invoke(myRunService, (Object [])null);
         method.invoke(myRunService, (Object [])null);
+
     }
 
     protected class MyShutdownHook extends Thread {
