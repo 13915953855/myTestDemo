@@ -129,12 +129,15 @@ public class ImportExamExcel {
         String e = "制控2(10,15,16,17)";
         String f = "制控3(10,15,17)";
         String f1 = "制控4(10,16,17)";
-        String g = "质量(10,17)";
+        String g = "质量1(10,17)";
+        String g1 = "质量2(10,18)";
         String h = "设备处(10,22)";
         String j = "安环(10,20)";
-        String k = "调度处(10,16,20)";
+        String k = "生产计划1(10,16,20)";
+        String k1 = "生产计划2(10,16,19,20)";
         String l = "物流(10,19)";
         String m = "采购(10,16)";
+        String n = "客供件(10,21)";
 
         List<String> ss = new ArrayList<>();
         ss.add(a);
@@ -145,11 +148,14 @@ public class ImportExamExcel {
         ss.add(f);
         ss.add(f1);
         ss.add(g);
+        ss.add(g1);
         ss.add(h);
         ss.add(j);
         ss.add(k);
+        ss.add(k1);
         ss.add(l);
         ss.add(m);
+        ss.add(n);
 
         int order = 1;
         for (String s : ss) {
