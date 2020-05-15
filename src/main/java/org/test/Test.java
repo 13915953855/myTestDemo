@@ -7,6 +7,10 @@ import java.io.InputStreamReader;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Map;
 
 public class Test {
     public static void main(String[] args) throws Exception {
@@ -37,7 +41,14 @@ public class Test {
 //            e.printStackTrace();
 //        }
         //System.out.println(test());
-        System.out.println(Runtime.getRuntime().availableProcessors());
+        //System.out.println(Runtime.getRuntime().availableProcessors());
+        test();
+    }
+    private static void s(String a){
+        a = "test";
+    }
+    private static void m(Map<String,String> a){
+        a.put("name","test");
     }
     private static int test(){
         int a = 1;
@@ -48,5 +59,16 @@ public class Test {
             ++a;
             System.out.println(a);
         }
+    }
+    static final int MAXIMUM_CAPACITY = 1 << 30;
+
+    static final int tableSizeFor(int cap) {
+        int n = cap -1;
+        n |= n >>> 1;
+        n |= n >>> 2;
+        n |= n >>> 4;
+        n |= n >>> 8;
+        n |= n >>> 16;
+        return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n +1;
     }
 }
