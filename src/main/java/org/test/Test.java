@@ -7,10 +7,8 @@ import java.io.InputStreamReader;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.*;
 
 public class Test {
     public static void main(String[] args) throws Exception {
@@ -42,7 +40,25 @@ public class Test {
 //        }
         //System.out.println(test());
         //System.out.println(Runtime.getRuntime().availableProcessors());
-        test();
+
+        //test();
+
+//        BlockingQueue<Runnable> queue = new ArrayBlockingQueue<>(100);
+//        ThreadFactory factory = r -> new Thread(r, "test-thread-pool");
+//        ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 5,
+//                0L, TimeUnit.SECONDS, queue, factory);
+//        while (true) {
+//            executor.submit(() -> {
+//                try {
+//                    System.out.println(queue.size());
+//                    Thread.sleep(10000);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//            });
+//        }
+
+
     }
     private static void s(String a){
         a = "test";

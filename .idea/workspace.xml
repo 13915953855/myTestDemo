@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51e7f9e3-3470-4577-8b44-97dea77feb02" name="Default Changelist" comment="excel">
+    <list default="true" id="51e7f9e3-3470-4577-8b44-97dea77feb02" name="Default Changelist" comment="百度AI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/spi/OneRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/spi/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/spi/RobotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/spi/TwoRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.test.spi.Robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/6170228ebc7abd6bad85bb781dded36795870e04" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/6170228ebc7abd6bad85bb781dded36795870e04" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/ShutdownHook/MyRunService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/ShutdownHook/MyRunService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/test/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/function/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/test/function/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/interfaceTest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/test/interfaceTest/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/jmockit/HelloJMockit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/jmockit/HelloJMockitTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/jmockit/HelloJMockitTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/jmockit/HelloJMockitTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/jmockit/HelloJMockitTest$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/jmockit/HelloJMockitTest$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/jmockit/HelloJMockitTest$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/test/jmockit/HelloJMockitTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,33 +23,35 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>commL</find>
-      <find />
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1YEixzaUMuYuIMAIkzNvzT9vJJN" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectId" id="1aZATeQr5cQbGw0dUr5zre9jknm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -64,19 +61,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565580817568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579500350472" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/rabbitMQ/boot-rabbitmq" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -84,21 +84,20 @@
       <recent name="org.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\徐森\项目空间\myTestDemo\src\main\resources" />
       <recent name="D:\项目代码\workspace\test\src\main\java\org\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyRunService">
+  <component name="RunManager" selected="Application.RobotTest">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_test" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="56317" />
       </RunnerSettings>
@@ -151,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.test.thread.ConcurrentUtil" />
+    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algurate.Hanoi" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.test.thread.*" />
+          <option name="PATTERN" value="algurate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImportExamExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.test.wife.exam.ImportExamExcel" />
-      <module name="myTestDemo" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.test.interfaceTest.Main" />
+      <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.test.wife.exam.*" />
+          <option name="PATTERN" value="org.test.interfaceTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,25 +176,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyRunService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.test.ShutdownHook.MyRunService" />
-      <module name="myTestDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.test.ShutdownHook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTomcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.test.minitomcat.MyTomcat" />
-      <module name="myTestDemo" />
+    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.test.spi.RobotTest" />
+      <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.test.minitomcat.*" />
+          <option name="PATTERN" value="org.test.spi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,18 +211,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.ConcurrentUtil" />
-      <item itemvalue="Application.ImportExamExcel" />
-      <item itemvalue="Application.MyTomcat" />
-      <item itemvalue="Application.MyRunService" />
+      <item itemvalue="Application.MyTest" />
+      <item itemvalue="Application.Hanoi" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.RobotTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyRunService" />
-        <item itemvalue="Application.MyTomcat" />
-        <item itemvalue="Application.ImportExamExcel" />
+        <item itemvalue="Application.RobotTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ConcurrentUtil" />
+        <item itemvalue="Application.Hanoi" />
+        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,119 +280,128 @@
       <workItem from="1562136375355" duration="38000" />
       <workItem from="1564127077322" duration="1392000" />
       <workItem from="1565580764096" duration="97000" />
-      <workItem from="1582514405643" duration="514000" />
-      <workItem from="1582516064735" duration="3893000" />
-      <workItem from="1582530741367" duration="10322000" />
-      <workItem from="1582597679268" duration="1285000" />
-      <workItem from="1583142433067" duration="1237000" />
-      <workItem from="1583285971412" duration="897000" />
-      <workItem from="1583663448167" duration="1537000" />
-      <workItem from="1585145423171" duration="164000" />
-      <workItem from="1585532328143" duration="1532000" />
-      <workItem from="1585547600142" duration="660000" />
+      <workItem from="1578552708891" duration="630000" />
+      <workItem from="1579422391834" duration="5442000" />
+      <workItem from="1581385335647" duration="1234000" />
+      <workItem from="1582082606366" duration="668000" />
     </task>
-    <task id="LOCAL-00001" summary="excel">
-      <created>1582510840378</created>
+    <task id="LOCAL-00001" summary="1231313">
+      <created>1579426331781</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1582510840378</updated>
+      <updated>1579426331781</updated>
     </task>
-    <task id="LOCAL-00002" summary="excel">
-      <created>1583663482489</created>
+    <task id="LOCAL-00002" summary="rabbitmq">
+      <created>1587524160117</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1583663482490</updated>
+      <updated>1587524160117</updated>
     </task>
-    <task id="LOCAL-00003" summary="excel">
-      <created>1587996577597</created>
+    <task id="LOCAL-00003" summary="netty">
+      <created>1587976803384</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1587996577597</updated>
+      <updated>1587976803384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="百度AI">
+      <created>1589522321778</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589522321778</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="HelloJMockitTest_test1 - 2019.04.10 at 16h 56m 21s.xml">
-      <configuration name="HelloJMockitTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloJMockitTest_test2 - 2019.04.10 at 16h 56m 48s.xml">
-      <configuration name="HelloJMockitTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnimalTest_test - 2019.04.26 at 11h 02m 14s.xml">
-      <configuration name="AnimalTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnimalTest_test - 2019.04.26 at 11h 02m 46s.xml">
-      <configuration name="AnimalTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnimalTest - 2019.04.26 at 11h 03m 19s.xml">
-      <configuration name="AnimalTest" configurationId="JUnit" />
-    </history-entry>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="89432000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="excel" />
-    <option name="LAST_COMMIT_MESSAGE" value="excel" />
+    <MESSAGE value="1231313" />
+    <MESSAGE value="rabbitmq" />
+    <MESSAGE value="netty" />
+    <MESSAGE value="百度AI" />
+    <option name="LAST_COMMIT_MESSAGE" value="百度AI" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="613" y="102" key="#Test" timestamp="1582514562469">
+    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1591090204773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="613" y="102" key="#Test/0.0.1920.1040@0.0.1920.1040" timestamp="1582514562469" />
-    <state x="489" y="47" key="CommitChangelistDialog2" timestamp="1587996576821">
+    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591090204773" />
+    <state x="769" y="401" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589522407474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="489" y="47" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587996576821" />
-    <state width="469" height="570" key="DebuggerActiveHint" timestamp="1582534806502">
+    <state x="769" y="401" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589522407474" />
+    <state x="497" y="42" key="CommitChangelistDialog2" timestamp="1589522468873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="469" height="570" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1582534806502" />
-    <state width="1867" height="269" key="GridCell.Tab.0.bottom" timestamp="1587997650978">
+    <state x="497" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589522468873" />
+    <state x="672" y="141" key="FileChooserDialogImpl" timestamp="1591089337305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587997650978" />
-    <state width="1867" height="269" key="GridCell.Tab.0.center" timestamp="1587997650978">
+    <state x="672" y="141" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591089337305" />
+    <state width="1867" height="273" key="GridCell.Tab.0.bottom" timestamp="1591090805841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587997650978" />
-    <state width="1867" height="269" key="GridCell.Tab.0.left" timestamp="1587997650978">
+    <state width="1867" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591090805841" />
+    <state width="1867" height="273" key="GridCell.Tab.0.center" timestamp="1591090805841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587997650978" />
-    <state width="1867" height="269" key="GridCell.Tab.0.right" timestamp="1587997650978">
+    <state width="1867" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591090805841" />
+    <state width="1867" height="273" key="GridCell.Tab.0.left" timestamp="1591090805841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587997650978" />
-    <state width="1867" height="333" key="GridCell.Tab.1.bottom" timestamp="1582550374949">
+    <state width="1867" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591090805841" />
+    <state width="1867" height="273" key="GridCell.Tab.0.right" timestamp="1591090805841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582550374949" />
-    <state width="1867" height="333" key="GridCell.Tab.1.center" timestamp="1582550374949">
+    <state width="1867" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591090805841" />
+    <state width="1867" height="329" key="GridCell.Tab.1.bottom" timestamp="1589017352094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="333" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582550374949" />
-    <state width="1867" height="333" key="GridCell.Tab.1.left" timestamp="1582550374949">
+    <state width="1867" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589017352094" />
+    <state width="1867" height="329" key="GridCell.Tab.1.center" timestamp="1589017352093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="333" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582550374949" />
-    <state width="1867" height="333" key="GridCell.Tab.1.right" timestamp="1582550374949">
+    <state width="1867" height="329" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589017352093" />
+    <state width="1867" height="329" key="GridCell.Tab.1.left" timestamp="1589017352093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="333" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582550374949" />
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1587996579490">
+    <state width="1867" height="329" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589017352093" />
+    <state width="1867" height="329" key="GridCell.Tab.1.right" timestamp="1589017352093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587996579490" />
-    <state x="161" y="54" key="new project wizard" timestamp="1583674014573">
+    <state width="1867" height="329" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589017352093" />
+    <state x="459" y="119" key="Maven.ArtifactSearchDialog" timestamp="1587020986966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="161" y="54" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583674014573" />
+    <state x="459" y="119" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587020986966" />
+    <state x="595" y="164" key="MultipleFileMergeDialog" timestamp="1589522351778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="164" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589522351778" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1589162006131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589162006131" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1589522323167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589522323167" />
+    <state x="544" y="179" width="831" height="682" key="find.popup" timestamp="1591089258234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="544" y="179" width="831" height="682" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591089258234" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1589879866988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589879866988" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,92 +419,9 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>test</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test$Test.ic" NAME="Test Coverage Results" MODIFIED="1589004378016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.test.*</FILTER>
+    </SUITE>
   </component>
 </project>
