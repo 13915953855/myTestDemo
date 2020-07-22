@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51e7f9e3-3470-4577-8b44-97dea77feb02" name="Default Changelist" comment="百度AI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/spi/OneRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/spi/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/spi/RobotTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/spi/TwoRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/org.test.spi.Robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/6170228ebc7abd6bad85bb781dded36795870e04" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/6170228ebc7abd6bad85bb781dded36795870e04" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="51e7f9e3-3470-4577-8b44-97dea77feb02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/BASE64DecodedMultipartFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/test/Test.class" afterDir="false" />
@@ -70,7 +62,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579500350472" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/rabbitMQ/boot-rabbitmq" />
+    <property name="last_opened_file_path" value="D:/MY_SERVER" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -87,7 +79,7 @@
       <recent name="D:\项目代码\workspace\test\src\main\java\org\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RobotTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
@@ -218,9 +210,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.RobotTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Hanoi" />
         <item itemvalue="Application.MyTest" />
       </list>
@@ -313,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589522321778</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="spi">
+      <created>1591090833035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591090833035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -327,57 +326,62 @@
     <MESSAGE value="rabbitmq" />
     <MESSAGE value="netty" />
     <MESSAGE value="百度AI" />
-    <option name="LAST_COMMIT_MESSAGE" value="百度AI" />
+    <MESSAGE value="spi" />
+    <option name="LAST_COMMIT_MESSAGE" value="spi" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1591090204773">
+    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1591941996293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591090204773" />
+    <state x="721" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591941996293" />
     <state x="769" y="401" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589522407474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="401" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589522407474" />
-    <state x="497" y="42" key="CommitChangelistDialog2" timestamp="1589522468873">
+    <state x="497" y="42" key="CommitChangelistDialog2" timestamp="1591090831345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="497" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589522468873" />
-    <state x="672" y="141" key="FileChooserDialogImpl" timestamp="1591089337305">
+    <state x="497" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591090831345" />
+    <state width="522" height="582" key="DebuggerActiveHint" timestamp="1591189305472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="141" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591089337305" />
-    <state width="1867" height="273" key="GridCell.Tab.0.bottom" timestamp="1591090805841">
+    <state width="522" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1591189305472" />
+    <state x="672" y="141" key="FileChooserDialogImpl" timestamp="1591199866558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591090805841" />
-    <state width="1867" height="273" key="GridCell.Tab.0.center" timestamp="1591090805841">
+    <state x="672" y="141" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591199866558" />
+    <state width="1867" height="305" key="GridCell.Tab.0.bottom" timestamp="1592294566993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591090805841" />
-    <state width="1867" height="273" key="GridCell.Tab.0.left" timestamp="1591090805841">
+    <state width="1867" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592294566993" />
+    <state width="1867" height="305" key="GridCell.Tab.0.center" timestamp="1592294566992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591090805841" />
-    <state width="1867" height="273" key="GridCell.Tab.0.right" timestamp="1591090805841">
+    <state width="1867" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592294566992" />
+    <state width="1867" height="305" key="GridCell.Tab.0.left" timestamp="1592294566992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591090805841" />
-    <state width="1867" height="329" key="GridCell.Tab.1.bottom" timestamp="1589017352094">
+    <state width="1867" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592294566992" />
+    <state width="1867" height="305" key="GridCell.Tab.0.right" timestamp="1592294566992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589017352094" />
-    <state width="1867" height="329" key="GridCell.Tab.1.center" timestamp="1589017352093">
+    <state width="1867" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592294566992" />
+    <state width="1867" height="329" key="GridCell.Tab.1.bottom" timestamp="1591251805122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="329" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589017352093" />
-    <state width="1867" height="329" key="GridCell.Tab.1.left" timestamp="1589017352093">
+    <state width="1867" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591251805122" />
+    <state width="1867" height="329" key="GridCell.Tab.1.center" timestamp="1591251805122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="329" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589017352093" />
-    <state width="1867" height="329" key="GridCell.Tab.1.right" timestamp="1589017352093">
+    <state width="1867" height="329" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591251805122" />
+    <state width="1867" height="329" key="GridCell.Tab.1.left" timestamp="1591251805122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="329" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589017352093" />
+    <state width="1867" height="329" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591251805122" />
+    <state width="1867" height="329" key="GridCell.Tab.1.right" timestamp="1591251805122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="329" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591251805122" />
     <state x="459" y="119" key="Maven.ArtifactSearchDialog" timestamp="1587020986966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -390,14 +394,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="312" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589162006131" />
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1589522323167">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1591090885728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589522323167" />
-    <state x="544" y="179" width="831" height="682" key="find.popup" timestamp="1591089258234">
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591090885728" />
+    <state x="544" y="179" width="831" height="682" key="find.popup" timestamp="1594777037163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="179" width="831" height="682" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591089258234" />
+    <state x="544" y="179" width="831" height="682" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594777037163" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1589879866988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -415,6 +419,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/test/App.java</url>
           <line>60</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/test/Test.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/test/Test.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
